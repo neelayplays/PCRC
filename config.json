@@ -5,10 +5,10 @@
 
     "__2__": "-------- Account and Server --------",
     "online_mode": false,
-    "username": "bot_PCRC",
+    "username": "camera",
     "password": "secret",
-    "address": "localhost",
-    "port": 25565,
+    "address": "51.178.92.40",
+    "port": 41892,
     "server_name": "SECRET SERVER",
     "initial_version": "1.15.2",
 
@@ -16,7 +16,7 @@
     "file_size_limit_mb": 2048,
     "file_buffer_size_mb": 8,
     "time_recorded_limit_hour": 24,
-    "delay_before_afk_second": 15,
+    "delay_before_afk_second": 9999995,
     "record_packets_when_afk": true,
     "auto_relogin": true,
     "chat_spam_protect": true,
@@ -24,17 +24,17 @@
 
     "__4__": "-------- PCRC Features --------",
     "minimal_packets": true,
-    "daytime": 4000,
-    "weather": false,
-    "with_player_only": true,
-    "remove_items": true,
-    "remove_bats": true,
-    "remove_phantoms": true,
+    "daytime": -1,
+    "weather": true,
+    "with_player_only": false,
+    "remove_items": false,
+    "remove_bats": false,
+    "remove_phantoms": false,
 
     "__5__": "-------- PCRC Whitelist --------",
-    "enabled": false,
+    "enabled": true,
     "whitelist": [
-        "Fallen_Breath",
-        "Steve"
+        "NeelayPLAYS",
+        "MarCoS"
     ]
 }
